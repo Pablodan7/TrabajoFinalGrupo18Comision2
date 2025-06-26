@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <BootstrapNavbar bg="dark" variant="dark" expand="lg" className="navbar-custom">
       <Container>
-        <BootstrapNavbar.Brand as={Link} to="/">Gestión de Productos</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Brand as={Link} to="/">FashionApp</BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
