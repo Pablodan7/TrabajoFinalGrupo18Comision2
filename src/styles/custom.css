@@ -1,0 +1,101 @@
+/* GENERAL */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* CARDS */
+.card-custom {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-4px);
+}
+
+/* PRODUCT DETAIL CARD */
+.card-detail {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* LOGIN FORM */
+.login-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 3rem;
+}
+
+/* BOTONES FAVORITOS */
+.btn-detail {
+    font-size: 1.5rem;
+    padding: 0.25rem 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* TITULOS */
+h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #0066cc;
+}
+
+/* CONTAINERS Y PADDING GENERAL */
+.container {
+    padding-bottom: 2rem;
+}
+
+/* NO RESULTADOS */
+.no-items {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    margin-top: 2rem;
+}
+
+/* NAVBAR azul oscura */
+.navbar-custom {
+    background-color: #003366 !important; /* azul oscuro */
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #a0cfff !important; /* azul claro al pasar el mouse */
+}
+
+.theme-dark {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.theme-light {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* adaptar tarjetas */
+.theme-dark .card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
